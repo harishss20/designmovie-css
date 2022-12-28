@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto',sans-serif;
+}
+.total{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-right: 4%;
+    padding-left: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display:flex;
+    height:12%;
+    align-items: center;
+    
+}
+.logo{
+    margin-top: 5%;
+    width:120px;
+    cursor: pointer;
+    margin-right: 50%;
+    border-radius: 35%;
+    transition: width 0.4s;
+}
+.logo:hover{
+    width:110px;
+}
+.menu{ 
+    margin-top:40px;
+    width:50px; 
+    cursor: pointer;
+    margin-left:40px;
+}
+.navbar{
+    flex:1;
+    text-align: right;
+}
+.navbar ul li{
+    margin-top: 5%;
+    list-style: none;
+    margin-left:60px;
+    display:inline-block;
+}
+.navbar ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: border-bottom 0.15s;
+}
+.navbar ul li a:hover{
+    font-size: 20px;
+    border-bottom:3px solid #fc6e51;
+}
+.first{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    height: 88%;
+    color:#fff;
+}
+ h1{
+    color:#fff;
+    font-size: 60px;
+    
+}
+ p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.first button{
+    color:black;
+    background-color:#fff;
+    font-size: 22px;
+    padding:15px 80px;
+    margin-top: 30px; 
+    border:none;
+    border-radius:25px;
+    font-weight: bold;
+    transition: background-color 0.3s ,padding 0.3s;
+}
+.first button:hover{
+    background-color: yellow;
+    padding:13px 78px;
+}
+.second{
+    flex-basis: 50%;
+}
+
+.card{
+    display:inline-block;
+    padding :10px 25px;
+    margin: 10px 25px;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height:230px;
+    border-radius: 10px;
+     
+    box-sizing:border-box;
+    cursor: pointer; 
+
+} 
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url(spider.jpg);
+}
+.card2{
+    background-image: url(wed.jpg);
+}
+.card3{
+    background-image: url(w.jpeg);
+}
+.card4{
+    background-image: url(st);
+}
+.cards{
+    background-image: url(i);
+}
+.card6{
+    background-image: url(ins.jpeg);
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 13px;
+    color: white;
+}
